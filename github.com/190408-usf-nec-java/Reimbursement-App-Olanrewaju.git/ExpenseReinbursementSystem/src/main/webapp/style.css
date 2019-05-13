@@ -1,0 +1,68 @@
+.module {
+    display: none;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 600px;
+}
+
+.module.active-module {
+    display: block;
+}
+
+.insert-module {
+    display: none;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    width: auto;
+}
+
+.resolve-module {
+    display: none;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 600px;
+}
+
+h1 {
+    display: inline;
+    color: red;
+}
+h2 {
+    text-align: center;
+    color: blue;
+}
+h3 {
+    text-align: center;
+    color: red;
+}
+
+input {
+    margin: 5px;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"], input[type="password"] {
+    flex-grow: 1;
+}
+
+#signup-nav, #login-nav {
+    padding: 3px;
+    border: 1px solid grey;
+    text-align: center;
+    background: #EEE;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#signup-nav:hover, #login-nav:hover {
+    background: #EFEFEF;
+    border-color: lightgrey;
+    color: #333;
+}

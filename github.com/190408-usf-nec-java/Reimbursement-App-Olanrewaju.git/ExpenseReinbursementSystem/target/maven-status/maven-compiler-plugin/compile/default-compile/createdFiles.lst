@@ -1,0 +1,17 @@
+com\revature\servlets\Resolve.class
+com\revature\servlets\LoginServlet.class
+com\revature\service\EnterReimbService.class
+com\revature\credentials\ReimbursementData.class
+com\revature\loginDao\ResolveDao.class
+com\revature\servlets\ManagerLogin.class
+com\revature\connectionUtil\ConnectionUtil.class
+com\revature\loginDao\EnterReimbDao.class
+com\revature\service\LoginService.class
+com\revature\service\ResolveService.class
+com\revature\service\ManagerService.class
+com\revature\credentials\Credentials.class
+com\revature\credentials\CredentialsTicket.class
+com\revature\servlets\EnterReimbServlet.class
+com\revature\loginDao\ManagerDao.class
+com\revature\credentials\CredentialsResolve.class
+com\revature\loginDao\LoginDao.class

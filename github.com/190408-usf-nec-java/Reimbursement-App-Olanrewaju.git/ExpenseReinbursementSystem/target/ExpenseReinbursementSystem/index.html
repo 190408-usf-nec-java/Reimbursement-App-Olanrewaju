@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ 
+    <div id="login-module" class="module active-module">
+        <h2>Login</h2>
+        <p id="login-alert" class="alert"></p>
+        <div class="row-container">
+            <input type="text" name="username" id="login-username" placeholder="username">
+            <input type="password" name="password" id="login-password" placeholder="password">
+            <input type="submit" value="login" id="login-submit">
+        </div>
+        
+        
+        <p id="signup-nav">If you are a Manager? Click here to Login as Manager!</p>
+    </div>
+      <div id="signup-module" class="module ">
+        <h2>Manager Login</h2>
+        <p id="signup-alert" class="alert"></p>
+        <div class="row-container">
+            <input type="text" name="username" id="signup-username" placeholder="username">
+            <input type="password" name="password" id="signup-password" placeholder="password">
+            <input type="submit" value="login" id="signup-submit">
+        </div>
+        <p id="login-nav">if you are an Employee? Click here to login as Employee!</p>
+    </div>
+   
+    <h2 id="reinb"></h2> 
+    <h2 id="reinb1"></h2>
+    <h2 id="reinb2"></h2>
+    <h2 id="reinb3"></h2>
+    <h2 id="reinb4"></h2>
+    <h2 id="reinb5"></h2>
+    <h2 id="reinb6"></h2>
+    <h2 id="reinb7"></h2>
+    <h2 id="reinb8"></h2>
+    <h2 id="reinb9"></h2>
+    
+    <div id="reimb-request-module" class="insert-module">
+        <h3>Enter reimbursement request</h3>
+        <p id="insert-alert" class="alert"></p>
+        <div class="row-container">
+                <select name = "type" id = "insert-type" placeholder="type">
+                        <option value=4>lodging</option>
+                        <option value=1>travel</option>
+                        <option value=3>food</option>
+                        <option value=2>other</option>
+                      </select>
+            <input type="text" name="description" id="insert-description" placeholder="description">
+            <input type="number" name="amount" id="insert-amount" placeholder="amount">
+            <input type="submit" value="enter-reimbursement" id="insert-reimb-submit">
+        </div>
+    </div>
+    
+    <div id="resolve-module" class="resolve-module">
+            <h3>Approve or deny request</h3>
+            <p id="resolve-alert" class="alert"></p>
+            <div class="row-container">
+                    <select name = "resolve" id = "resolve" placeholder="resolve">
+                            <option value=2>Approve</option>
+                            <option value=3>Deny</option>
+                          </select>
+                <input type="text" name="reimb-id" id="resolve-reimb-id" placeholder="reimb_id">
+                <input type="submit" value="resolve" id="resolve-submit">
+            </div>
+        </div>
+    
+
+    <!-- JavaScript -->
+    <script src="./setup.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>"
+</body>
+</html>
